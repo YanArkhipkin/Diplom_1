@@ -32,5 +32,4 @@ public class IngredientTypeParamTest {
         IngredientType actualType = ingredient.getType();
         assertEquals("Ingredients types should be equal", expectedType, actualType);
     }
-
 }

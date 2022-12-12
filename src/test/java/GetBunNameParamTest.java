@@ -15,7 +15,7 @@ public class GetBunNameParamTest {
         this.expectedName = expectedName;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "{index}: bun({0})={1}")
     public static Object[][] nameTestData() {
         return new Object[][] {
                 {" ", " "},
